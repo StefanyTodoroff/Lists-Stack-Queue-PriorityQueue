@@ -19,13 +19,6 @@ public class GUI_List  {
   
     }
 
-    System.out.println(numbers);
-    Collections.sort(numbers);
-    System.out.println(numbers);
-    Collections.sort(numbers, Collections.reverseOrder());
-    System.out.println(numbers);
-    Collections.shuffle(numbers);
-    System.out.println(numbers);
    
     JFrame frame = new JFrame("Numbers");
 		frame.setSize(350, 200);
